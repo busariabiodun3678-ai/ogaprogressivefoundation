@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oga Progressive Foundation | Empowering Communities</title>
+    <!-- Favicon using your uploaded banner image -->
+    <link rel="icon" type="image/jpeg" href="ogamii.jpeg">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandTeal: '#0EA5E9',
+                        brandCoral: '#F97316',
+                        brandAmber: '#FBBF24',
+                        brandIndigo: '#6366F1',
+                        brandEmerald: '#10B981',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Background Watermark using your uploaded banner logo */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            height: 500px;
+            background-image: url('ogamii.jpeg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            opacity: 0.04; /* Extremely professional faint watermark */
+            z-index: -1;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased relative">
+
+    <!-- Top Colorful Announcement Bar -->
+    <div class="bg-gradient-to-r from-brandTeal via-brandIndigo to-brandCoral text-white text-xs sm:text-sm py-2 px-4 text-center font-medium">
+        🎉 Empowering over 5,000+ lives across 20+ communities. <a href="#donate" class="underline font-bold ml-1 hover:text-brandAmber">Support Our Mission today!</a>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-full bg-gradient-to-br from-brandTeal to-brandIndigo flex items-center justify-center text-white font-bold text-xl shadow-md overflow-hidden p-0.5">
+                    <img src="ogamii.jpeg" alt="Logo" class="w-full h-full object-cover rounded-full">
+                </div>
+                <div>
+                    <span class="text-lg font-black tracking-tight bg-gradient-to-r from-brandIndigo to-brandCoral bg-clip-text text-transparent">Oga Progressive</span>
+                    <p class="text-xs text-slate-500 font-semibold tracking-wider uppercase">Foundation</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 font-medium text-slate-600">
+                <a href="#home" class="hover:text-brandTeal transition">Home</a>
+                <a href="#programmes" class="hover:text-brandCoral transition">Programmes</a>
+                <a href="#leadership" class="hover:text-brandIndigo transition">Leadership</a>
+                <a href="#donate" class="hover:text-brandEmerald transition">Contact</a>
+            </nav>
+            <div>
+                <a href="#donate" class="bg-gradient-to-r from-brandCoral to-brandAmber text-white font-bold px-5 py-2.5 rounded-full shadow-lg hover:shadow-xl transition">
+                    <i class="fa-solid fa-heart mr-2 text-white"></i> Donate Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative overflow-hidden bg-gradient-to-b from-indigo-50/50 via-teal-50/30 to-white/90 py-24 lg:py-36">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <span class="inline-flex items-center space-x-2 bg-brandAmber/10 text-amber-700 text-xs font-bold uppercase tracking-widest py-1.5 px-4 rounded-full mb-6 border border-brandAmber/30">
+                <i class="fa-solid fa-sparkles text-brandAmber"></i>
+                <span>Building Hope • Creating Impact</span>
+            </span>
+            <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-slate-900 max-w-4xl mx-auto leading-tight">
+                Empowering Communities Through <span class="bg-gradient-to-r from-brandTeal via-brandIndigo to-brandCoral bg-clip-text text-transparent">Sustainable Development</span>
+            </h1>
+            <p class="mt-6 text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto font-normal">
+                Oga Progressive Foundation partners with individuals, communities, and organizations to improve education, healthcare, and economic opportunities for those who need them most.
+            </p>
+            <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#donate" class="bg-gradient-to-r from-brandTeal to-brandEmerald text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-teal-500/25 transition transform hover:-translate-y-1">
+                    Support Our Mission
+                </a>
+                <a href="#programmes" class="bg-white/90 text-slate-700 hover:text-brandTeal font-bold text-lg px-8 py-4 rounded-xl border-2 border-slate-200 hover:border-brandTeal shadow-sm transition">
+                    Explore Programmes
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Metrics Cards -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-10 relative z-20 mb-20">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-gradient-to-br from-brandTeal to-cyan-600 text-white p-8 rounded-3xl shadow-xl flex items-center justify-between transform hover:scale-105 transition">
+                <div>
+                    <h3 class="text-4xl font-black">5,000+</h3>
+                    <p class="text-cyan-100 font-medium text-lg mt-1">Lives Impacted</p>
+                </div>
+                <div class="w-16 h-16 rounded-2xl bg-white/20 flex items-center justify-center text-3xl">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+            </div>
+            <div class="bg-gradient-to-br from-brandCoral to-amber-500 text-white p-8 rounded-3xl shadow-xl flex items-center justify-between transform hover:scale-105 transition">
+                <div>
+                    <h3 class="text-4xl font-black">20+</h3>
+                    <p class="text-orange-100 font-medium text-lg mt-1">Communities Reached</p>
+                </div>
+                <div class="w-16 h-16 rounded-2xl bg-white/20 flex items-center justify-center text-3xl">
+                    <i class="fa-solid fa-earth-africa"></i>
+                </div>
+            </div>
+            <div class="bg-gradient-to-br from-brandIndigo to-purple-600 text-white p-8 rounded-3xl shadow-xl flex items-center justify-between transform hover:scale-105 transition">
+                <div>
+                    <h3 class="text-4xl font-black">12 Years</h3>
+                    <p class="text-indigo-100 font-medium text-lg mt-1">Of Dedicated Service</p>
+                </div>
+                <div class="w-16 h-16 rounded-2xl bg-white/20 flex items-center justify-center text-3xl">
+                    <i class="fa-solid fa-hands-holding-child"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programmes Section -->
+    <section id="programmes" class="py-24 bg-white/80 backdrop-blur-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brandCoral font-bold uppercase tracking-widest text-sm">What We Do</span>
+                <h2 class="text-3xl sm:text-5xl font-extrabold text-slate-900 mt-2">Our Core Programmes</h2>
+                <p class="text-slate-600 mt-4 text-lg">Practical initiatives designed to create opportunities, restore hope, and build stronger communities.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group bg-slate-50/90 rounded-3xl p-8 border border-slate-100 hover:border-brandTeal hover:shadow-2xl transition duration-300">
+                    <div class="w-14 h-14 rounded-2xl bg-brandTeal/10 text-brandTeal flex items-center justify-center text-2xl mb-6 group-hover:bg-brandTeal group-hover:text-white transition">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Education Support</h3>
+                    <p class="text-slate-600 leading-relaxed">Providing school fees, uniforms, exercise books, school bags, learning materials, and scholarships to children from disadvantaged backgrounds.</p>
+                </div>
+                <div class="group bg-slate-50/90 rounded-3xl p-8 border border-slate-100 hover:border-brandCoral hover:shadow-2xl transition duration-300">
+                    <div class="w-14 h-14 rounded-2xl bg-brandCoral/10 text-brandCoral flex items-center justify-center text-2xl mb-6 group-hover:bg-brandCoral group-hover:text-white transition">
+                        <i class="fa-solid fa-suitcase-medical"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Healthcare Assistance</h3>
+                    <p class="text-slate-600 leading-relaxed">Supporting medical outreaches, providing healthcare assistance, and helping vulnerable families gain access to essential medical services.</p>
+                </div>
+                <div class="group bg-slate-50/90 rounded-3xl p-8 border border-slate-100 hover:border-brandAmber hover:shadow-2xl transition duration-300">
+                    <div class="w-14 h-14 rounded-2xl bg-brandAmber/10 text-amber-600 flex items-center justify-center text-2xl mb-6 group-hover:bg-brandAmber group-hover:text-white transition">
+                        <i class="fa-solid fa-bowl-food"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Relief & Welfare</h3>
+                    <p class="text-slate-600 leading-relaxed">Distributing food items, relief materials, and emergency assistance to vulnerable individuals and families during difficult times.</p>
+                </div>
+                <div class="group bg-slate-50/90 rounded-3xl p-8 border border-slate-100 hover:border-brandIndigo hover:shadow-2xl transition duration-300">
+                    <div class="w-14 h-14 rounded-2xl bg-brandIndigo/10 text-brandIndigo flex items-center justify-center text-2xl mb-6 group-hover:bg-brandIndigo group-hover:text-white transition">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Youth Empowerment</h3>
+                    <p class="text-slate-600 leading-relaxed">Equipping young people with vocational skills, mentorship, and entrepreneurship opportunities for sustainable livelihoods.</p>
+                </div>
+                <div class="group bg-slate-50/90 rounded-3xl p-8 border border-slate-100 hover:border-brandEmerald hover:shadow-2xl transition duration-300">
+                    <div class="w-14 h-14 rounded-2xl bg-brandEmerald/10 text-brandEmerald flex items-center justify-center text-2xl mb-6 group-hover:bg-brandEmerald group-hover:text-white transition">
+                        <i class="fa-solid fa-people-roof"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Community Development</h3>
+                    <p class="text-slate-600 leading-relaxed">Working closely with local communities on projects that promote education, sanitation, social inclusion, and sustainable growth.</p>
+                </div>
+                <div class="group bg-slate-50/90 rounded-3xl p-8 border border-slate-100 hover:border-pink-500 hover:shadow-2xl transition duration-300">
+                    <div class="w-14 h-14 rounded-2xl bg-pink-500/10 text-pink-500 flex items-center justify-center text-2xl mb-6 group-hover:bg-pink-500 group-hover:text-white transition">
+                        <i class="fa-solid fa-hand-holding-heart"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-3">Family Support</h3>
+                    <p class="text-slate-600 leading-relaxed">Providing assistance to widows, elderly people, and low-income families through various welfare initiatives and outreach programs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section with Executives -->
+    <section id="leadership" class="py-24 bg-gradient-to-b from-slate-50/80 to-indigo-50/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="text-brandIndigo font-bold uppercase tracking-widest text-sm">Governance</span>
+            <h2 class="text-3xl sm:text-5xl font-extrabold text-slate-900 mt-2">Meet Our Executives</h2>
+            <p class="text-slate-600 mt-4 text-lg max-w-2xl mx-auto">Dedicated leaders committed to serving the community with integrity, vision, and excellence.</p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+                <!-- Chairman -->
+                <div class="bg-white/95 backdrop-blur-sm rounded-3xl p-6 shadow-md hover:shadow-xl transition border border-slate-100 text-center">
+                    <div class="w-36 h-36 mx-auto rounded-full p-1 bg-gradient-to-tr from-brandTeal to-brandIndigo mb-4 shadow-lg overflow-hidden">
+                        <img src="https://ogaprogressivefoundation.com.ng/assets/chairman-BjFPyGmD.jpg" alt="Ogunjobi Ganiu Adio" class="w-full h-full object-cover rounded-full">
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mt-2">Ogunjobi Ganiu Adio</h3>
+                    <span class="inline-block mt-2 text-xs font-bold uppercase bg-brandTeal/10 text-brandTeal px-3 py-1 rounded-full">Chairman</span>
+                </div>
+
+                <!-- Secretary -->
+                <div class="bg-white/95 backdrop-blur-sm rounded-3xl p-6 shadow-md hover:shadow-xl transition border border-slate-100 text-center">
+                    <div class="w-36 h-36 mx-auto rounded-full p-1 bg-gradient-to-tr from-brandCoral to-brandAmber mb-4 shadow-lg overflow-hidden">
+                        <img src="https://ogaprogressivefoundation.com.ng/assets/sec3-MZQTizI-.jpg" alt="Mrs Oladipupo Temitope" class="w-full h-full object-cover rounded-full">
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mt-2">Mrs Oladipupo Temitope</h3>
+                    <span class="inline-block mt-2 text-xs font-bold uppercase bg-brandCoral/10 text-brandCoral px-3 py-1 rounded-full">Secretary</span>
+                </div>
+
+                <!-- Trustee: Alhaji Luqman Adewunmi -->
+                <div class="bg-white/95 backdrop-blur-sm rounded-3xl p-6 shadow-md hover:shadow-xl transition border border-slate-100 text-center">
+                    <div class="w-36 h-36 mx-auto rounded-full p-1 bg-gradient-to-tr from-brandIndigo to-purple-600 mb-4 shadow-lg overflow-hidden">
+                        <img src="https://ogaprogressivefoundation.com.ng/assets/trustee20-B-7TXblT.jpg" alt="Alhaji Luqman Adewunmi" class="w-full h-full object-cover rounded-full">
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mt-2">Alhaji Luqman Adewunmi</h3>
+                    <span class="inline-block mt-2 text-xs font-bold uppercase bg-brandIndigo/10 text-brandIndigo px-3 py-1 rounded-full">Trustee</span>
+                </div>
+
+                <!-- Trustee: Comrade Abdulhammed Akinyemi Akinsoji -->
+                <div class="bg-white/95 backdrop-blur-sm rounded-3xl p-6 shadow-md hover:shadow-xl transition border border-slate-100 text-center">
+                    <div class="w-36 h-36 mx-auto rounded-full p-1 bg-gradient-to-tr from-brandEmerald to-teal-600 mb-4 shadow-lg overflow-hidden">
+                        <img src="https://ogaprogressivefoundation.com.ng/assets/trustee5-1luLqNFa.jpg" alt="Comrade Abdulhammed Akinyemi Akinsoji" class="w-full h-full object-cover rounded-full">
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mt-2">Comrade Abdulhammed A. Akinsoji</h3>
+                    <span class="inline-block mt-2 text-xs font-bold uppercase bg-brandEmerald/10 text-brandEmerald px-3 py-1 rounded-full">Trustee</span>
+                </div>
+
+                <!-- Trustee: Prince Adesegun Stephen -->
+                <div class="bg-white/95 backdrop-blur-sm rounded-3xl p-6 shadow-md hover:shadow-xl transition border border-slate-100 text-center sm:col-span-2 lg:col-span-1">
+                    <div class="w-36 h-36 mx-auto rounded-full p-1 bg-gradient-to-tr from-amber-500 to-orange-600 mb-4 shadow-lg overflow-hidden">
+                        <img src="https://ogaprogressivefoundation.com.ng/assets/trustee6-3CwzI0qe.jpg" alt="Prince Adesegun Stephen" class="w-full h-full object-cover rounded-full">
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mt-2">Prince Adesegun Stephen</h3>
+                    <span class="inline-block mt-2 text-xs font-bold uppercase bg-amber-500/10 text-amber-600 px-3 py-1 rounded-full">Trustee</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation & Contact Section -->
+    <section id="donate" class="py-24 bg-white/90 backdrop-blur-sm relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <span class="text-brandEmerald font-bold uppercase tracking-widest text-sm">Make A Difference</span>
+                    <h2 class="text-3xl sm:text-5xl font-extrabold text-slate-900 mt-2">Support Our Mission Today</h2>
+                    <p class="text-slate-600 mt-4 text-lg">Every contribution helps us provide education, healthcare, welfare support, and hope to vulnerable individuals and communities.</p>
+                    
+                    <ul class="mt-8 space-y-4">
+                        <li class="flex items-center space-x-3 text-slate-700 font-medium">
+                            <i class="fa-solid fa-check-circle text-brandEmerald text-xl"></i>
+                            <span>Sponsor children's education and learning materials</span>
+                        </li>
+                        <li class="flex items-center space-x-3 text-slate-700 font-medium">
+                            <i class="fa-solid fa-check-circle text-brandEmerald text-xl"></i>
+                            <span>Provide food packages and emergency relief items</span>
+                        </li>
+                        <li class="flex items-center space-x-3 text-slate-700 font-medium">
+                            <i class="fa-solid fa-check-circle text-brandEmerald text-xl"></i>
+                            <span>Fund essential rural healthcare outreaches</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-gradient-to-br from-slate-900 to-slate-800 p-8 sm:p-10 rounded-3xl shadow-2xl text-white">
+                    <h3 class="text-2xl font-bold mb-6">Quick Donation Form</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label class="block text-xs uppercase tracking-wider text-slate-400 mb-2 font-semibold">Full Name</label>
+                            <input type="text" placeholder="Enter your full name" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandTeal">
+                        </div>
+                        <div>
+                            <label class="block text-xs uppercase tracking-wider text-slate-400 mb-2 font-semibold">Email Address</label>
+                            <input type="email" placeholder="name@example.com" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandTeal">
+                        </div>
+                        <div>
+                            <label class="block text-xs uppercase tracking-wider text-slate-400 mb-2 font-semibold">Donation Amount (₦)</label>
+                            <input type="number" placeholder="5,000" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-brandTeal">
+                        </div>
+                        <button type="submit" class="w-full bg-gradient-to-r from-brandCoral to-brandAmber text-white font-bold py-4 rounded-xl shadow-lg hover:opacity-95 transition mt-4">
+                            Continue To Donate
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-16 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div>
+                <h3 class="text-white text-lg font-bold mb-4">Oga Progressive Foundation</h3>
+                <p class="text-sm leading-relaxed">Dedicated to transforming underserved communities through education, healthcare, humanitarian assistance, and sustainable youth initiatives.</p>
+            </div>
+            <div>
+                <h3 class="text-white text-lg font-bold mb-4">Contact Info</h3>
+                <p class="text-sm mb-2"><i class="fa-solid fa-location-dot mr-2 text-brandTeal"></i> Idogo 112106, Ogun State, Nigeria</p>
+                <p class="text-sm mb-2"><i class="fa-solid fa-envelope mr-2 text-brandCoral"></i> ogaprogressivefoundation@yahoo.com</p>
+                <p class="text-sm"><i class="fa-solid fa-phone mr-2 text-brandAmber"></i> +234 707 842 6137</p>
+            </div>
+            <div>
+                <h3 class="text-white text-lg font-bold mb-4">Quick Links</h3> 
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#home" class="hover:text-white transition">Home</a></li>
+                    <li><a href="#programmes" class="hover:text-white transition">Our Programmes</a></li>
+                    <li><a href="#leadership" class="hover:text-white transition">Leadership Team</a></li>
+                    <li><a href="#donate" class="hover:text-white transition">Contact & Donate</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-slate-800 text-center text-xs">
+            &copy; 2026 Oga Progressive Foundation. All rights reserved.
+        </div>
+    </footer>
+
+</body> 
+</html>
